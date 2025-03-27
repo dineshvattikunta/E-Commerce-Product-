@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaGlow | Premium Wireless Earbuds</title>
+    <style>
+        /* ===== GLOBAL STYLES ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            background: linear-gradient(135deg, #6e45e2, #88d3ce);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 0.5rem;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* ===== PRODUCT SHOWCASE ===== */
+        .product-container {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 3rem;
+        }
+
+        .product-image {
+            flex: 1;
+            min-width: 300px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .product-image:hover {
+            transform: translateY(-10px);
+        }
+
+        .product-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .product-info {
+            flex: 1;
+            min-width: 300px;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-title {
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+            color: #6e45e2;
+        }
+
+        .product-description {
+            margin-bottom: 1.5rem;
+            color: #666;
+        }
+
+        .price {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #6e45e2;
+            margin-bottom: 1.5rem;
+        }
+
+        .highlight {
+            background: #f0f7ff;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+
+        .highlight li {
+            margin-bottom: 0.5rem;
+            list-style-type: none;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .highlight li::before {
+            content: "✓";
+            color: #6e45e2;
+            position: absolute;
+            left: 0;
+        }
+
+        /* ===== CTA BUTTON ===== */
+        .cta-button {
+            display: inline-block;
+            background: #6e45e2;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+        }
+
+        .cta-button:hover {
+            background: #5a35c7;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(110, 69, 226, 0.3);
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #333;
+            color: white;
+            margin-top: 3rem;
+        }
+
+        /* ===== RESPONSIVE DESIGN ===== */
+        @media (max-width: 768px) {
+            .product-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .product-info, .product-image {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">Mobile Products</div>
+        <div class="tagline">iphone 17 series</div>
+    </header>
+
+    <!-- PRODUCT SHOWCASE -->
+    <div class="product-container">
+        <div class="product-image">
+            <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9uspIzzDYh1WL6gaF6Q-hGEMn85HncbLM3Q&s alt="iphone 17">
+        </div>
+
+        <div class="product-info">
+            <h1 class="product-title">iphone 17 pro</h1>
+            <p class="product-description">
+                Experience the Dynamic features and Apple Intelligence. 
+                Designed for Tech and style.
+            </p>
+
+            <div class="price">$149.99</div>
+
+            <div class="highlight">
+                <ul>
+                    <li>Apple Intelligence. AI‑opening possibilities.</li>
+                    <li>Chip and Battery Life. Fast that lasts</li>
+                    <li>Privacy. Your data.  (IPX7)</li>
+                    <li>Bluetooth 5.2</li>
+                   
+                </ul>
+            </div>
+
+            <button class="cta-button">Buy Now</button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        &copy; 2025 Dinesh Chowdary. All rights reserved.
+    </footer>
+</body>
+</html>
